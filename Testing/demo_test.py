@@ -12,7 +12,7 @@ class TestDemo(unittest.TestCase):
         
     def test_is_even(self):
         self.assertFalse(de.is_even(3))
-        self.assertTrue(de.is_even(4))
+        self.assertTrue(de.is_even(3))
         
 if __name__ == '__main__':
     unittest.main()
